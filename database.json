@@ -1,5 +1,5 @@
 {
-  "usuarios": [
+  "users": [
     {
       "id": 1,
       "nombres": "Jaime Zapata",
@@ -36,7 +36,7 @@
       "edad": 39
     }
   ],
-  "categorias": [
+  "categorys": [
     {
       "id": 301,
       "nombre": "Suscripciones Software",
@@ -73,7 +73,7 @@
       "justificacion": "Desplazamientos entre sedes"
     }
   ],
-  "mediosPago": [
+  "payment_methods": [
     {
       "id": 101,
       "nombre": "Bancolombia Débito",
@@ -105,7 +105,7 @@
       "estado": "activo"
     }
   ],
-  "comercios": [
+  "merchants": [
     {
       "id": 201,
       "nit": "900.123.456-1",
@@ -156,7 +156,7 @@
       "contacto": "pagos@sena.edu.co"
     }
   ],
-  "gastos": [
+  "expenses": [
     {
       "id": 5001,
       "descripcion": "Renovación GitHub Copilot Anual",
