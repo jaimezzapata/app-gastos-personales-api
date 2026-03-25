@@ -1,0 +1,216 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombres": "Jaime Zapata",
+      "tipoDocumento": "CC",
+      "documento": "1020304050",
+      "edad": 34
+    },
+    {
+      "id": 2,
+      "nombres": "Beatriz Aristizábal",
+      "tipoDocumento": "CC",
+      "documento": "1152123456",
+      "edad": 28
+    },
+    {
+      "id": 3,
+      "nombres": "Carlos Mario Mesa",
+      "tipoDocumento": "CC",
+      "documento": "71345678",
+      "edad": 42
+    },
+    {
+      "id": 4,
+      "nombres": "Sandra Milena Cano",
+      "tipoDocumento": "CC",
+      "documento": "1037654321",
+      "edad": 31
+    },
+    {
+      "id": 5,
+      "nombres": "John Jairo Doe",
+      "tipoDocumento": "CE",
+      "documento": "550432",
+      "edad": 39
+    }
+  ],
+  "categorias": [
+    {
+      "id": 301,
+      "nombre": "Suscripciones Software",
+      "fechaCreacion": "2026-01-01",
+      "responsable": "Depto. TI",
+      "justificacion": "Herramientas de desarrollo y licencias"
+    },
+    {
+      "id": 302,
+      "nombre": "Viáticos y Alimentación",
+      "fechaCreacion": "2026-01-01",
+      "responsable": "Recursos Humanos",
+      "justificacion": "Gastos de representación y viajes"
+    },
+    {
+      "id": 303,
+      "nombre": "Infraestructura Cloud",
+      "fechaCreacion": "2026-01-05",
+      "responsable": "DevOps",
+      "justificacion": "Servidores y servicios en la nube"
+    },
+    {
+      "id": 304,
+      "nombre": "Material Pedagógico",
+      "fechaCreacion": "2026-02-10",
+      "responsable": "Academia",
+      "justificacion": "Libros y recursos para docencia"
+    },
+    {
+      "id": 305,
+      "nombre": "Transporte y Movilidad",
+      "fechaCreacion": "2026-01-10",
+      "responsable": "Administración",
+      "justificacion": "Desplazamientos entre sedes"
+    }
+  ],
+  "mediosPago": [
+    {
+      "id": 101,
+      "nombre": "Bancolombia Débito",
+      "franquicia": "Mastercard",
+      "estado": "activo"
+    },
+    {
+      "id": 102,
+      "nombre": "Davivienda Crédito",
+      "franquicia": "Visa",
+      "estado": "activo"
+    },
+    {
+      "id": 103,
+      "nombre": "Caja Menor (Efectivo)",
+      "franquicia": "N/A",
+      "estado": "activo"
+    },
+    {
+      "id": 104,
+      "nombre": "American Express Corporate",
+      "franquicia": "Amex",
+      "estado": "activo"
+    },
+    {
+      "id": 105,
+      "nombre": "Nequi Pro",
+      "franquicia": "Visa Digital",
+      "estado": "activo"
+    }
+  ],
+  "comercios": [
+    {
+      "id": 201,
+      "nit": "900.123.456-1",
+      "nombre": "AWS Amazon",
+      "actividad": "Servicios Cloud",
+      "contacto": "support@amazon.com"
+    },
+    {
+      "id": 202,
+      "nit": "860.001.023-5",
+      "nombre": "Almacenes Éxito",
+      "actividad": "Retail",
+      "contacto": "servicio@exito.com"
+    },
+    {
+      "id": 203,
+      "nit": "800.222.333-0",
+      "nombre": "Restaurante El Herbario",
+      "actividad": "Gastronomía",
+      "contacto": "reservas@herbario.com"
+    },
+    {
+      "id": 204,
+      "nit": "901.000.555-8",
+      "nombre": "Uber Technologies",
+      "actividad": "Transporte",
+      "contacto": "help@uber.com"
+    },
+    {
+      "id": 205,
+      "nit": "830.123.999-2",
+      "nombre": "Librería Nacional",
+      "actividad": "Comercio",
+      "contacto": "ventas@lnacional.com"
+    },
+    {
+      "id": 206,
+      "nit": "900.555.444-1",
+      "nombre": "GitHub Inc.",
+      "actividad": "Desarrollo",
+      "contacto": "billing@github.com"
+    },
+    {
+      "id": 207,
+      "nit": "890.903.938-8",
+      "nombre": "SENA Regional",
+      "actividad": "Educación",
+      "contacto": "pagos@sena.edu.co"
+    }
+  ],
+  "gastos": [
+    {
+      "id": 5001,
+      "descripcion": "Renovación GitHub Copilot Anual",
+      "fecha": "2026-03-01",
+      "valor": 420000.0,
+      "imagen": "ic-code-branch",
+      "usuarioId": 1,
+      "medioPagoId": 102,
+      "comercioId": 206,
+      "categoriaId": 301
+    },
+    {
+      "id": 5002,
+      "descripcion": "Reserva AWS EC2 - Proyecto Final",
+      "fecha": "2026-03-02",
+      "valor": 1580000.0,
+      "imagen": "ic-server",
+      "usuarioId": 1,
+      "medioPagoId": 104,
+      "comercioId": 201,
+      "categoriaId": 303
+    },
+    {
+      "id": 5003,
+      "descripcion": "Almuerzo Facultad de Ingeniería",
+      "fecha": "2026-03-03",
+      "valor": 85000.0,
+      "imagen": "ic-utensils",
+      "usuarioId": 1,
+      "medioPagoId": 101,
+      "comercioId": 203,
+      "categoriaId": 302
+    },
+    {
+      "id": 5004,
+      "descripcion": "Libro Clean Code - Referencia Clase",
+      "fecha": "2026-03-03",
+      "valor": 125000.0,
+      "imagen": "ic-book",
+      "usuarioId": 1,
+      "medioPagoId": 105,
+      "comercioId": 205,
+      "categoriaId": 304
+    },
+    {
+      "id": 5005,
+      "descripcion": "Traslado Sede Central a Sede Norte",
+      "fecha": "2026-03-04",
+      "valor": 28500.0,
+      "imagen": "ic-car",
+      "usuarioId": 1,
+      "medioPagoId": 103,
+      "comercioId": 204,
+      "categoriaId": 305
+    }
+  ]
+}

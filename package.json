@@ -1,0 +1,28 @@
+{
+  "name": "app-gastos-personales",
+  "version": "1.0.0",
+  "description": "API REST para la gestión y control de gastos financieros, diseñada para centralizar la información de usuarios, comercios, categorías y medios de pago. El sistema permite la trazabilidad de transacciones, categorización inteligente y soporte multiusuario, optimizada para integración con ecosistemas Frontend modernos.",
+  "license": "ISC",
+  "keywords": [
+    "express-api",
+    "expense-tracker",
+    "fintech-colombia",
+    "rest-full-service",
+    "software-architecture",
+    "frontend-friendly",
+    "javascript-es6",
+    "data-simulation",
+    "backend-modeling",
+    "educational-resource"
+  ],
+  "author": "Jaime Zapata Valencia",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --port 8080 database.json"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.12"
+  }
+}
