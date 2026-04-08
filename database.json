@@ -3,6 +3,8 @@
     {
       "id": 1,
       "nombres": "Jaime Zapata",
+      "email": "jaime@correo.com",
+      "password": "admin123",
       "tipoDocumento": "CC",
       "documento": "1020304050",
       "edad": 34
@@ -11,6 +13,8 @@
       "id": 2,
       "nombres": "Beatriz Aristizábal",
       "tipoDocumento": "CC",
+      "email": "beatriz@correo.com",
+      "password": "admin123",
       "documento": "1152123456",
       "edad": 28
     },
@@ -18,6 +22,8 @@
       "id": 3,
       "nombres": "Carlos Mario Mesa",
       "tipoDocumento": "CC",
+      "email": "carlos@correo.com",
+      "password": "admin123",
       "documento": "71345678",
       "edad": 42
     },
@@ -25,6 +31,8 @@
       "id": 4,
       "nombres": "Sandra Milena Cano",
       "tipoDocumento": "CC",
+      "email": "sandra@correo.com",
+      "password": "admin123",
       "documento": "1037654321",
       "edad": 31
     },
@@ -32,6 +40,8 @@
       "id": 5,
       "nombres": "John Jairo Doe",
       "tipoDocumento": "CE",
+      "email": "jhon@correo.com",
+      "password": "admin123",
       "documento": "550432",
       "edad": 39
     }
